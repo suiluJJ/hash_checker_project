@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hash checker</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Hash checker</h1>
+
+    <div id="file_drop">
+        <p>Drag and drop a file here <br> to get the files hash report.</p>
+    </div>
+
+    <div id="output"></div>
+    
+    <button onclick="emptyOutput()">Clear output</button>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+</body>
+</html>
